@@ -23,3 +23,4 @@ def calculate_average(sales_dict):
 print("Regional Sales Summary")
 print("Total:", calculate_total(sales_by_region))
 print("Average:", calculate_average(sales_by_region))
+print("Number of regions:", len(sales_by_region))
